@@ -1,0 +1,9 @@
+Font:
+$main-font: 'UberMove-Medium', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+
+Color:
+$black: #000000;
+$purple-bg: #7556BF;
+$white: #ffffff;
+
+Optimized Images:
