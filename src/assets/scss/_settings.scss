@@ -12,6 +12,7 @@
 //   6. Callout
 //   7. Menu
 //   8. Thumbnail
+//   9. Mixins
 
 
 // 0. Project Variables
@@ -24,6 +25,7 @@ $main-font: 'UberMove-Medium', 'HelveticaNeue', Helvetica, Arial, sans-serif;
 $black: #000000;
 $purple-bg: #7556BF;
 $white: #ffffff;
+$wrapper: #d6d6d5;
 
 
 // 1. Global
@@ -158,3 +160,10 @@ $thumbnail-shadow-hover: 0 0 6px 1px rgba($primary-color, 0.5);
 $thumbnail-transition: box-shadow 200ms ease-out;
 $thumbnail-radius: $global-radius;
 
+// 9. Media Query
+// ------------
+@mixin small ($screen) {
+  @media screen and (max-width: $screen) {
+    @content;
+  }
+}

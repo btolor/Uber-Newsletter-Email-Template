@@ -1,0 +1,367 @@
+// start of email wrapper styles...
+.wrapper {
+    background: $wrapper;
+    background-color: $wrapper;
+
+    // start of header-container styles...
+    .header {
+        background: $black;
+        background-color: $black;
+
+        .columns {
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+
+            img {
+                width: 69px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                padding-left: 60px;
+            }
+
+            @include small(596px) {
+                img {
+                    padding-left: 8px;
+                }
+
+            }
+        }
+
+    }
+
+    // end of header-container styles...
+
+    // start of top-ad-container styles...
+    .top-ad {
+        background: $purple-bg;
+        background-color: $purple-bg;
+
+        .columns {
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .ad-img {
+            img {
+                width: 159px;
+            }
+
+        }
+
+        @include small(596px) {
+            .ad-img {
+                .columns {
+                    padding-right: 0 !important;
+                }
+            }
+        }
+
+        .ad-text {
+            margin-top: -90px;
+
+            .columns {
+                padding-left: 60px;
+                padding-bottom: 45px;
+
+
+                h1 {
+                    color: $white;
+                    font-size: 44px;
+                    font-family: $main-font;
+                    font-weight: 500;
+                    width: 50%;
+                    margin-bottom: 0;
+                    line-height: 1.1;
+                    padding-bottom: 22px;
+                }
+
+                h3 {
+                    color: $white;
+                    font-size: 24px;
+                    line-height: 30px;
+                    font-family: $main-font;
+                    font-weight: 500;
+                    width: 70%;
+                    margin-bottom: 0;
+                }
+
+                @include small(596px) {
+
+                    h1 {
+                        padding-top: 40px;
+                        width: 100%;
+                        padding-left: 8px;
+                        padding-right: 8px;
+                    }
+
+                    h3 {
+                        padding-left: 8px;
+                        padding-right: 8px;
+                        width: 100%;
+                    }
+                }
+
+            }
+        }
+
+        @include small(596px) {
+            .ad-text {
+                margin-top: 0;
+            }
+
+        }
+
+    }
+
+    // end of top-ad-container styles...
+
+    // start of news-container styles...
+    .news {
+        .columns {
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .intro {
+            .columns {
+                padding-left: 60px;
+                padding-right: 60px;
+
+                p {
+                    font-family: $main-font;
+                    font-size: 16px;
+                    padding-top: 38px;
+                    padding-bottom: 30px;
+                    margin-bottom: 0;
+                    line-height: 1.4;
+                    color: $black;
+                }
+                @include small(596px){
+                    p{
+                        padding-left: 8px;
+                        padding-right: 8px;
+                    }
+                }
+            }
+
+        }
+
+        .btn {
+            .columns {
+                padding-left: 60px;
+                padding-top: 30px;
+                padding-bottom: 40px;
+
+                a {
+                    background: $black;
+                    background-color: $black;
+                    width: 50%;
+                    text-decoration: none;
+                    color: $white;
+                    font-family: $main-font;
+                    font-weight: 600;
+                    font-size: 18px;
+                    letter-spacing: 1px;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                    padding-left: 16px;
+                    padding-right: 16px;
+
+                    span {
+                        display: inline-block;
+                        background-color: black;
+                        vertical-align: middle;
+                        padding-left: 2px;
+
+                        img {
+                            width: 14px;
+                        }
+                    }
+
+                }
+                @include small(596px){
+                    a{
+                        margin-left: 8px;
+                    }
+                }
+
+            }
+        }
+
+        .pros {
+            .gif {
+                padding-left: 60px;
+                padding-top: 20px;
+
+                img {
+                    padding-top: 5px;
+                }
+                @include small(596px){
+                    img{
+                        padding-left: 8px;
+                    }
+                }
+            }
+
+            .info {
+                padding-top: 20px;
+                padding-left: 25px;
+                padding-right: 60px;
+                padding-bottom: 20px;
+
+                h2 {
+                    font-family: $main-font;
+                    color: $black;
+                    font-size: 28px;
+                    margin-bottom: 0;
+                    padding-bottom: 12px;
+                    font-weight: 600;
+                }
+
+                p {
+                    margin-bottom: 0;
+                    font-family: $main-font;
+                    color: $black;
+                    font-size: 16px;
+                    line-height: 1.4;
+                }
+                @include small(596px){
+                    h2,p{
+                        padding-left: 8px;
+                    }
+                }
+            }
+        }
+
+        .learn-more {
+            .columns {
+                a {
+                    span {
+                        padding-left: 20px;
+                    }
+                }
+            }
+
+
+        }
+
+        .fine-print {
+            .columns {
+                padding-top: 22px;
+                padding-bottom: 50px;
+                padding-left: 60px;
+                padding-right: 60px;
+
+                p {
+                    font-size: 12px;
+                    line-height: 1.6;
+                    font-family: $main-font;
+                    color: $black;
+                    margin-bottom: 0;
+                    font-weight: 300;
+                }
+                @include small(596px){
+                    p{
+                        padding-left: 8px;
+                        padding-right: 8px;
+                    }
+                }
+            }
+        }
+    }
+
+    // end of news-container styles...
+
+    // start of footer-container styles...
+    .footer{
+        background: $black;
+        background-color: $black;
+        .columns{
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 0;
+            padding-right: 0;
+            .row{
+                .columns{
+                    a{
+                        color: $white;
+                        line-height: 2;
+                        font-family: $main-font;
+                        font-size: 12px;
+                    }
+                    @include small (596px){
+                        a{
+                            margin-left: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        .left-menu,.right-menu{
+            padding-top: 35px;
+            padding-bottom: 28px;
+        }
+        @include small (596px){
+            .left-menu{
+                padding-bottom: 0;
+            }
+            .right-menu{
+                padding-top: 0;
+                padding-bottom: 28px;
+            }
+        }
+        .location-social-media{
+            .col{
+                padding-bottom: 50px;
+                p{
+                    margin-bottom: 0;
+                    color: $white;
+                    font-size: 12px;
+                    line-height: 1.8;
+                }
+                a{
+                    color: $white;
+                    font-size: 12px;
+                    img{
+                        width: 16px;
+                    }
+                }
+            }
+            .location{
+                a{
+                    line-height: 1.8;
+                }
+            }
+            .social-media{
+                padding-left: 20px;
+                 
+            }
+            @include small (596px){
+                .location{
+                    padding-bottom: 12px;
+                    p{
+                        padding-left: 8px;
+                    }
+                    a{
+                        padding-left: 8px;
+                    }
+                }
+                .social-media{
+                    margin-left: 6px;
+                }
+            }
+        }
+        
+    }
+    // end of footer-container styles...
+
+
+}
+
+// end of email wrapper styles...
