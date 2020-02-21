@@ -23,7 +23,7 @@
 
             @include small(596px) {
                 img {
-                    padding-left: 8px;
+                    padding-left: 8px !important;
                 }
 
             }
@@ -92,16 +92,16 @@
                 @include small(596px) {
 
                     h1 {
-                        padding-top: 40px;
-                        width: 100%;
-                        padding-left: 8px;
-                        padding-right: 8px;
+                        padding-top: 40px !important;
+                        width: 100% !important;
+                        padding-left: 8px !important;
+                        padding-right: 8px !important;
                     }
 
                     h3 {
-                        padding-left: 8px;
-                        padding-right: 8px;
-                        width: 100%;
+                        padding-left: 8px !important;
+                        padding-right: 8px !important;
+                        width: 100% !important;
                     }
                 }
 
@@ -110,7 +110,7 @@
 
         @include small(596px) {
             .ad-text {
-                margin-top: 0;
+                margin-top: 0 !important;
             }
 
         }
@@ -135,7 +135,7 @@
 
                 p {
                     font-family: $main-font;
-                    font-size: 16px;
+                    font-size: 14px;
                     padding-top: 38px;
                     padding-bottom: 30px;
                     margin-bottom: 0;
@@ -144,8 +144,8 @@
                 }
                 @include small(596px){
                     p{
-                        padding-left: 8px;
-                        padding-right: 8px;
+                        padding-left: 8px !important;
+                        padding-right: 8px !important;
                     }
                 }
             }
@@ -187,7 +187,7 @@
                 }
                 @include small(596px){
                     a{
-                        margin-left: 8px;
+                        margin-left: 8px !important;
                     }
                 }
 
@@ -204,7 +204,7 @@
                 }
                 @include small(596px){
                     img{
-                        padding-left: 8px;
+                        padding-left: 8px !important;
                     }
                 }
             }
@@ -233,7 +233,7 @@
                 }
                 @include small(596px){
                     h2,p{
-                        padding-left: 8px;
+                        padding-left: 8px !important;
                     }
                 }
             }
@@ -268,8 +268,8 @@
                 }
                 @include small(596px){
                     p{
-                        padding-left: 8px;
-                        padding-right: 8px;
+                        padding-left: 8px !important;
+                        padding-right: 8px !important;
                     }
                 }
             }
@@ -297,7 +297,7 @@
                     }
                     @include small (596px){
                         a{
-                            margin-left: 8px;
+                            margin-left: 8px !important;
                         }
                     }
                 }
@@ -309,11 +309,11 @@
         }
         @include small (596px){
             .left-menu{
-                padding-bottom: 0;
+                padding-bottom: 0 !important;
             }
             .right-menu{
-                padding-top: 0;
-                padding-bottom: 28px;
+                padding-top: 0 !important;
+                padding-bottom: 28px !important;
             }
         }
         .location-social-media{
@@ -344,16 +344,16 @@
             }
             @include small (596px){
                 .location{
-                    padding-bottom: 12px;
+                    padding-bottom: 12px !important;
                     p{
-                        padding-left: 8px;
+                        padding-left: 8px !important;
                     }
                     a{
-                        padding-left: 8px;
+                        padding-left: 8px !important;
                     }
                 }
                 .social-media{
-                    margin-left: 6px;
+                    margin-left: 6px !important;
                 }
             }
         }

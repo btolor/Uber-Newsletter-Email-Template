@@ -7,3 +7,12 @@ $purple-bg: #7556BF;
 $white: #ffffff;
 
 Optimized Images:
+https://i.postimg.cc/C1nfcLqv/calender-min.gif-
+https://i.postimg.cc/tJ0nwQd9/rain-min.gif-
+https://i.postimg.cc/pXRpFBqc/arrow-white-left.png-
+https://i.postimg.cc/63Cp77RN/facebook-icon.png-
+https://i.postimg.cc/jSk5BYKB/instagram-icon.png
+https://i.postimg.cc/X7LXcyPj/moon-ticket.png-
+https://i.postimg.cc/q7hRTDvq/twitter-icon.png-
+https://i.postimg.cc/rpBpFGDJ/uber-logo-white.png-
+https://i.postimg.cc/kg5Gjgrx/wallet.png-
